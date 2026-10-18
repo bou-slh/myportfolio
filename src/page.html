@@ -1,0 +1,193 @@
+<title>Bourla's Room</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Bourla's pixel room: software developer and English teacher based in Istanbul.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Silkscreen&family=VT323&display=swap">
+<style>
+{{CSS}}
+</style>
+
+<div id="boot" role="status" aria-live="polite">
+  <div class="boot-box">
+    <div class="boot-logo">BOURLA OS<sup>2000</sup></div>
+    <div class="boot-bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="boot-msg" id="bootMsg">starting up…</div>
+    <div class="boot-skip">click anywhere to skip</div>
+  </div>
+</div>
+
+<div class="sky" aria-hidden="true"></div>
+<canvas id="stage" aria-label="Pixel art room: Bourla sits in an inflatable chair at her desk, her cat Limoo naps on a pink rug, a window looks out on Istanbul." role="img"></canvas>
+<div id="hotspots"></div>
+<div class="tip" id="tip" aria-hidden="true"></div>
+<div class="bubble" id="meBubble" aria-hidden="true"></div>
+<div class="bubble" id="catBubble" aria-hidden="true"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<nav class="dock" aria-label="Site">
+  <a class="gel" href="#home">home</a>
+  <a class="gel" href="#about">about</a>
+  <a class="gel" href="#contact">contact</a>
+  <span class="sep" aria-hidden="true"></span>
+  <button class="gel blue" id="musicBtn" type="button" aria-pressed="false" title="Play some chill music">♪ <span class="lbl">music</span></button>
+  <button class="gel mint" id="lightsBtn" type="button" aria-pressed="false" title="Turn the room lights off or on">☀ <span class="lbl">lights on</span></button>
+</nav>
+
+<main>
+  <section id="home" class="hero">
+    <div class="eyebrow"><i>✦</i> welcome to my room <i>✦</i></div>
+    <h1 class="logo" aria-label="Bourla"><span>B</span><span>O</span><span>U</span><span>R</span><span>L</span><span>A</span></h1>
+    <p class="tagline">software developer <b>&amp;</b> english teacher, based in istanbul</p>
+    <div class="hint">
+      <div class="chips"><span class="chip">boombox → spotify</span><span class="chip">computers → github</span><span class="chip">books → english lessons</span><span class="chip">pinboard → notes</span><span class="chip">pet limoo</span></div>
+      <a class="scroll-cue" href="#about" style="color:inherit;text-decoration:none">
+        <span>hover anything that glows · scroll</span>
+        <svg viewBox="0 0 8 8" shape-rendering="crispEdges" aria-hidden="true"><path fill="#ffe27a" d="M1 2h1v1h1v1h2V3h1V2h1v2H6v1H5v1H3V5H2V4H1z"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="panel-wrap">
+      <article class="win reveal" aria-labelledby="aboutTitle">
+        <div class="win-bar"><div class="win-title">about_me.txt</div><div class="win-btns" aria-hidden="true"><span></span><span></span></div></div>
+        <div class="win-body">
+          <h2 class="hello" id="aboutTitle">hi, i'm Bourla <span class="wave" aria-hidden="true">✿</span></h2>
+          <p class="typed" id="typed" data-text="25 years old, based in Istanbul. I'm a software developer and an English teacher: I build business apps with C# / .NET and Next.js, and I've taught English from A2 to C2 since 2022.">25 years old, based in Istanbul. I'm a software developer and an English teacher: I build business apps with C# / .NET and Next.js, and I've taught English from A2 to C2 since 2022.</p>
+          <div class="stats">
+            <div class="stat"><b>25</b><small>years old</small></div>
+            <div class="stat"><b>IST</b><small>istanbul, TR</small></div>
+            <div class="stat"><b>2022</b><small>teaching since</small></div>
+            <div class="stat"><b>4</b><small>languages</small></div>
+          </div>
+          <p class="status-line"><span class="dot" aria-hidden="true"></span>currently: software development intern at Rapidsol and studying Information Systems Engineering at Kocaeli University</p>
+
+          <div class="label">education</div>
+          <div class="edu">
+            <div class="edu-row"><span class="edu-badge now">now</span><div><b>Information Systems Engineering</b><small>Kocaeli University · 2025 – present</small></div></div>
+            <div class="edu-row"><span class="edu-badge done">✓ grad</span><div><b>Associate Degree, Computer Programming</b><small>Marmara University · 2022 – 2025</small></div></div>
+          </div>
+
+          <div class="label">skills.inv</div>
+          <div class="inv">
+            <div class="inv-row"><h4>agentic ai</h4><div class="tags">
+              <span class="tag ai">Claude Code</span><span class="tag ai">OpenAI Codex</span><span class="tag ai">MCP</span><span class="tag ai">context engineering</span><span class="tag ai">multi-agent workflows</span><span class="tag ai">RAG <em>(learning)</em></span>
+            </div></div>
+            <div class="inv-row"><h4>backend</h4><div class="tags">
+              <span class="tag dev">C#</span><span class="tag dev">.NET</span><span class="tag dev">TypeScript</span><span class="tag dev">Node.js</span><span class="tag dev">Java</span><span class="tag dev">REST APIs</span><span class="tag dev">OOP</span>
+            </div></div>
+            <div class="inv-row"><h4>web &amp; data</h4><div class="tags">
+              <span class="tag web">Next.js</span><span class="tag web">React</span><span class="tag web">Prisma</span><span class="tag web">PostgreSQL</span><span class="tag web">MySQL</span><span class="tag web">MongoDB</span><span class="tag web">HTML / CSS</span>
+            </div></div>
+            <div class="inv-row"><h4>delivery</h4><div class="tags">
+              <span class="tag ops">Docker</span><span class="tag ops">Git &amp; GitHub</span><span class="tag ops">Linux</span><span class="tag ops">CI/CD</span><span class="tag ops">Agile / Scrum</span>
+            </div></div>
+            <div class="inv-row"><h4>sap</h4><div class="tags">
+              <span class="tag sap">SAP GUI</span><span class="tag sap">Fiori / UI5</span><span class="tag sap">ABAP / DDIC basics</span><span class="tag sap">SAP HCM</span>
+            </div></div>
+            <div class="inv-row"><h4>languages</h4><div class="tags">
+              <span class="tag lang">English <em>fluent · teacher</em></span><span class="tag lang">Turkish <em>fluent</em></span><span class="tag lang">Persian <em>native</em></span><span class="tag lang">Arabic <em>A2</em></span>
+            </div></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="panel-wrap">
+      <article class="win reveal" aria-labelledby="contactTitle">
+        <div class="win-bar"><div class="win-title">contact.exe</div><div class="win-btns" aria-hidden="true"><span></span><span></span></div></div>
+        <div class="win-body">
+          <h2 class="contact-head" id="contactTitle">let's talk!</h2>
+          <p class="contact-sub">Projects, collabs or English lessons, my inbox is open.</p>
+          <div class="links">
+            <div class="mail">
+              <div class="addr"><small>email</small><span id="mailAddr">salehibourla@gmail.com</span></div>
+              <div class="acts">
+                <button class="gel" type="button" data-copy="salehibourla@gmail.com">copy</button>
+                <a class="gel blue" href="mailto:salehibourla@gmail.com">write</a>
+              </div>
+            </div>
+            <a class="link-card gh" href="https://github.com/bou-slh" target="_blank" rel="noopener">
+              <span class="ico"><svg viewBox="0 0 10 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2b1d4a" d="M3 1h4v1h1v1h1v4H8v1H7v1H6V7h1V6h1V4H7V3H3v1H2v2h1v1h1v2H3V8H2V7H1V3h1V2h1z"/></svg></span>
+              <span class="meta"><b>github</b><span>bou-slh</span></span>
+            </a>
+            <a class="link-card ig" href="https://www.instagram.com/bou_slh/" target="_blank" rel="noopener">
+              <span class="ico"><svg viewBox="0 0 10 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2b1d4a" d="M2 1h6v1h1v6H8v1H2V8H1V2h1zm0 1v6h6V2zm2 1h2v1h1v2H6v1H4V6H3V4h1zm0 1v2h2V4zm3-1h1v1H7z"/></svg></span>
+              <span class="meta"><b>instagram</b><span>@bou_slh</span></span>
+            </a>
+            <a class="link-card li" href="https://www.linkedin.com/in/bourla-salehi" target="_blank" rel="noopener">
+              <span class="ico"><svg viewBox="0 0 10 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2b1d4a" d="M1 1h2v2H1zm0 3h2v5H1zm3 0h2v1h2v1h1v3H7V6H6v3H4z"/></svg></span>
+              <span class="meta"><b>linkedin</b><span>bourla-salehi</span></span>
+            </a>
+            <a class="link-card sp" href="https://open.spotify.com/user/odmygy6v1mtjqe5bwsglt8ewv" target="_blank" rel="noopener">
+              <span class="ico"><svg viewBox="0 0 10 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2b1d4a" d="M4 1h3v6H6V3H5v5H4V7H3V6H2V5h2zM2 6v1h1v1h1V6zm4 1h1v2H5V8h1z"/></svg></span>
+              <span class="meta"><b>spotify</b><span>what i'm listening to</span></span>
+            </a>
+          </div>
+          <p class="sig">P.S. Limoo says hi too. Pet him on the rug before you go.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer>made with ♥, tea and a lot of pixels · bourla salehi · istanbul</footer>
+
+<div class="modal" id="english" hidden>
+  <div class="modal-bg" data-close></div>
+  <div class="win" role="dialog" aria-modal="true" aria-labelledby="enTitle">
+    <div class="win-bar"><div class="win-title">english_lessons.exe</div><button class="win-close" type="button" data-close aria-label="Close">×</button></div>
+    <div class="win-body">
+      <div class="en-head">
+        <canvas id="enIcon" width="16" height="16" aria-hidden="true"></canvas>
+        <div>
+          <h3 id="enTitle">Learn English with Bourla</h3>
+          <p>Teaching at ChitChat, Istanbul since 2022</p>
+        </div>
+      </div>
+      <div class="label">levels i teach</div>
+      <div class="cefr" aria-label="CEFR levels A2 to C2"><span>A1</span><span class="on">A2</span><span class="on">B1</span><span class="on">B2</span><span class="on">C1</span><span class="on">C2</span></div>
+      <div class="label">lessons</div>
+      <div class="lessons">
+        <div class="lesson"><b>speaking</b><p>Conversation practice so you stop translating in your head.</p></div>
+        <div class="lesson"><b>grammar &amp; vocab</b><p>The rules that confuse you, explained simply.</p></div>
+        <div class="lesson"><b>english for work</b><p>Interviews, emails and meetings, with real examples.</p></div>
+      </div>
+      <div class="label">quick level check</div>
+      <div class="quiz" id="quiz" aria-live="polite">
+        <p class="q" id="quizQ"></p>
+        <div class="opts" id="quizOpts"></div>
+        <p class="res" id="quizRes"></p>
+      </div>
+      <div class="en-cta">
+        <a class="gel" id="bookLesson" href="mailto:salehibourla@gmail.com?subject=English%20lessons%20with%20Bourla">book a lesson</a>
+        <button class="gel blue" type="button" data-copy="salehibourla@gmail.com">copy email</button>
+        <span class="addr">salehibourla@gmail.com</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" id="notes" hidden>
+  <div class="modal-bg" data-close></div>
+  <div class="win notes-win" role="dialog" aria-modal="true" aria-labelledby="notesTitle">
+    <div class="win-bar"><div class="win-title">pinboard.jpg</div><button class="win-close" type="button" data-close aria-label="Close">×</button></div>
+    <div class="win-body cork">
+      <h3 class="sr" id="notesTitle">What I'm up to</h3>
+      <div class="stickies">
+        <div class="sticky y"><b>now building</b>RapidHR, an HR app with Next.js 15, Prisma, PostgreSQL &amp; Docker</div>
+        <div class="sticky b"><b>now learning</b>agentic RAG: embeddings, vector stores &amp; evals</div>
+        <div class="sticky p"><b>day job</b>software dev intern at Rapidsol, SAP HR consulting</div>
+        <div class="sticky m"><b>studying</b>Information Systems Engineering @ Kocaeli University</div>
+        <div class="sticky l"><b>teaching</b>English, A2 to C2, at ChitChat since 2022</div>
+        <div class="sticky w"><b>don't forget</b>feed Limoo, then tea time ♥</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+{{JS}}
+</script>
