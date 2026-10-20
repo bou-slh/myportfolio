@@ -4,7 +4,7 @@
 
 **An interactive pixel-art portfolio, hand-drawn in code. Zero frameworks, zero image files.**
 
-[**▶ Live demo**](https://bou-slh.github.io/Myportfolio/) · [LinkedIn](https://www.linkedin.com/in/bourla-salehi) · [Email](mailto:salehibourla@gmail.com)
+[**▶ Live demo**](https://bou-slh.github.io/myportfolio/) · [LinkedIn](https://www.linkedin.com/in/bourla-salehi) · [Email](mailto:salehibourla@gmail.com)
 
 <img src="docs/room.gif" alt="Animated pixel-art room with Bourla's avatar, Limoo the cat, a boombox and glowing CRT monitors" width="820">
 
@@ -71,8 +71,8 @@ build.js         bundles everything into index.html
 ## Run it locally
 
 ```bash
-git clone https://github.com/bou-slh/Myportfolio.git
-cd Myportfolio
+git clone https://github.com/bou-slh/myportfolio.git
+cd myportfolio
 open index.html          # or just double-click it
 ```
 
