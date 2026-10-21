@@ -1886,7 +1886,7 @@ const Scene = (() => {
 /* main.js: camera, scroll story, hotspots, avatar + Limoo behaviour, sound, modal. */
 (() => {
   const LINKS = {
-    projects: 'https://github.com/bou-slh?tab=repositories',
+    projects: 'https://github.com/bou-slh',
     spotify: 'https://open.spotify.com/user/odmygy6v1mtjqe5bwsglt8ewv',
   };
   const S = Scene.S;
@@ -1974,8 +1974,8 @@ const Scene = (() => {
   /* ---------- hotspots ---------- */
   const HOT = [
     { id: 'speaker', label: 'my spotify ♪', href: LINKS.spotify, rect: { x: 140, y: 100, w: 42, h: 26 } },
-    { id: 'pc1', group: 'pc', label: 'my projects on github', href: LINKS.projects, rect: { x: 222, y: 69, w: 32, h: 29 } },
-    { id: 'pc2', group: 'pc', label: 'my projects on github', href: LINKS.projects, rect: { x: 256, y: 71, w: 32, h: 28 } },
+    { id: 'pc1', group: 'pc', label: 'my github profile', href: LINKS.projects, rect: { x: 222, y: 69, w: 32, h: 29 } },
+    { id: 'pc2', group: 'pc', label: 'my github profile', href: LINKS.projects, rect: { x: 256, y: 71, w: 32, h: 28 } },
     { id: 'books', label: 'english lessons ✎', action: () => openEnglish(), rect: { x: 91, y: 62, w: 38, h: 66 } },
     { id: 'cat', label: 'Limoo', cls: 'cat', action: () => petCat(), rect: { x: 130, y: 128, w: 32, h: 22 } },
     { id: 'me', label: "that's me! say hi", action: () => sayHi(), rect: { x: 203, y: 93, w: 22, h: 48 } },

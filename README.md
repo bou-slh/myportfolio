@@ -20,7 +20,7 @@ This repo is my portfolio: a cozy Y2K bedroom you can explore. Every object is a
 
 | Click / hover | What happens |
 | --- | --- |
-| 🖥️ The two CRT monitors | Opens my GitHub projects |
+| 🖥️ The two CRT monitors | Opens my GitHub profile |
 | 📻 The boombox | Opens my Spotify |
 | 📚 The **ENGLISH** bookshelf | English tutoring info and a mini quiz |
 | 📌 The pinboard | Sticky notes about what I'm working on |
