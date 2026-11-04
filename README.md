@@ -12,7 +12,7 @@
 
 ## Hi, I'm Bourla 👋
 
-I'm a 25-year-old **software developer and English teacher based in Istanbul**. I build business apps with C# / .NET and Next.js, work with AI agent tooling (MCP, multi-agent workflows, RAG), and currently intern in software development while studying Information Systems Engineering at Kocaeli University. I hold an associate degree in Computer Programming from Marmara University.
+I'm a 25-year-old **software developer and English teacher based in Istanbul**. I build business apps with C# / .NET and Next.js, work with AI agent tooling (MCP, multi-agent workflows, RAG), and am currently studying Information Systems Engineering at Kocaeli University. I hold an associate degree in Computer Programming from Marmara University.
 
 This repo is my portfolio: a cozy Y2K bedroom you can explore. Every object is a door to something about me.
 
