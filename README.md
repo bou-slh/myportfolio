@@ -82,7 +82,7 @@ After editing anything in `src/`, rebuild with `node build.js` (Node 18+, no dep
 
 `JavaScript` `Canvas 2D` `Web Audio API` `HTML / CSS` `Responsive design` `Accessibility` `Animation` `Pixel art`
 
-My wider stack: C#, .NET, TypeScript, Node.js, Java, Next.js, React, Prisma, PostgreSQL, MySQL, MongoDB, Docker, Linux, CI/CD, SAP (Fiori / UI5, ABAP basics, HCM) and AI tooling (Claude Code, MCP, multi-agent workflows, RAG). I speak English, Turkish, Persian and Arabic.
+My wider stack: C#, .NET, TypeScript, Node.js, Java, Next.js, React, Prisma, PostgreSQL, MySQL, MongoDB, Docker, Linux, CI/CD, SAP (Fiori / UI5, ABAP basics, HCM) and AI tooling (Claude Code, MCP, multi-agent workflows, RAG). I speak English, Turkish, Persian, Arabic and French.
 
 ## Let's talk
 
